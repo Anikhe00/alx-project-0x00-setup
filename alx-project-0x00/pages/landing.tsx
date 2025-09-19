@@ -21,9 +21,15 @@ const Landing: React.FC = () => {
           styles=""
         />
         <Button
-          title="Small - Rounded Full"
+          title="Small - Rounded Lg"
           size="small"
           shape="rounded-lg"
+          styles=""
+        />
+        <Button
+          title="Small - Rounded Full"
+          size="small"
+          shape="rounded-full"
           styles=""
         />
       </div>
@@ -43,9 +49,15 @@ const Landing: React.FC = () => {
           styles=""
         />
         <Button
-          title="Medium - Rounded Full"
+          title="Medium - Rounded Lg"
           size="medium"
           shape="rounded-lg"
+          styles=""
+        />
+        <Button
+          title="Medium - Rounded Full"
+          size="medium"
+          shape="rounded-full"
           styles=""
         />
       </div>
@@ -65,9 +77,15 @@ const Landing: React.FC = () => {
           styles=""
         />
         <Button
-          title="Large - Rounded Full"
+          title="Large - Rounded Lg"
           size="large"
           shape="rounded-lg"
+          styles=""
+        />
+        <Button
+          title="Large - Rounded Full"
+          size="large"
+          shape="rounded-full"
           styles=""
         />
       </div>
