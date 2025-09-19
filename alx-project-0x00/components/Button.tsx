@@ -4,7 +4,7 @@ const Button: React.FC<ButtonProps> = ({
   title,
   size = "medium",
   shape = "rounded-md",
-  className = "",
+  styles = "",
 }) => {
   const baseStyles =
     "px-4 py-2 font-medium text-white bg-blue-600 hover:bg-blue-700 transition-colors";
@@ -16,9 +16,7 @@ const Button: React.FC<ButtonProps> = ({
   };
 
   return (
-    <button
-      className={`${baseStyles} ${sizeStyles[size]} ${shape} ${className}`}
-    >
+    <button className={`${baseStyles} ${sizeStyles[size]} ${shape} ${styles}`}>
       {title}
     </button>
   );
